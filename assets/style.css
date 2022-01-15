@@ -61,8 +61,35 @@ section {
   background-size: 50% auto;
   background-position: center;
 }
-div ul li {
+.intro {
+  text-align: center;
+
+}
+.intro h2 {
+  font-size: 40px;
+  color: #191919;
+  background: #e5e5e5;
+}
+
+.intro h2 ul li .intro p {
+  text-align: center;
+  font-size: 30px;
+}
+.intro div ul li {
 margin: 7px 7px;
 display: inline;
-float: right;
+text-align: center;
+}
+.intro img {
+  width: 50%;
+  margin: 10px 0
+}
+.app {
+  font-size: 25px;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+}
+.app img {
+  width: 50%;
+  margin: 10px 0;
 }
