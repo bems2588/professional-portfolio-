@@ -8,6 +8,11 @@ header {
   background-color: #254558;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  background-position: 80%;
+
 }
 body {
   color: #254558;
@@ -65,7 +70,6 @@ h2 {
   text-align: center;
   font-size: 30px;
   padding: 0 50px 0 0;
-  ;
 }
 
 .hero {
@@ -73,14 +77,15 @@ h2 {
   height: 300px;
   background-size: 50% auto;
   background-position: center;
-  /* display: flex; */
-  /* justify-content: center;
+  display: flex; 
+  justify-content: space-between;
   flex-wrap: wrap;
-  align-items: flex-start; */
+ 
 }
 .intro {
   display: flex;
-  align-items: center;
+  
+
 }
 .intro p {
   padding: 100px 100px ;
@@ -92,6 +97,8 @@ h2 {
   width: 25%;
   border: 5px dotted #254558;
   padding: 10px;
+  align-items: center;
+
 }
 
 .work-container {
@@ -135,3 +142,35 @@ h2 {
   font-size: 25px;
 
 }
+
+@media all and (max-width: 980px) {
+
+  .hero {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }  
+  footer {
+    width: 100%;
+  }
+}
+
+
+@media all and (max-width: 768px)  {
+   
+  .hero {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }  
+}
+
+
+@media all and (max-width: 575px) {
+  
+  .hero {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  } 
+  }
